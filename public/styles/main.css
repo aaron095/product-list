@@ -1,0 +1,48 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1440px;
+    font-family: "Red Hat Text", sans-serif;
+}
+
+.item {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 5%;
+}
+
+.food {
+    width: 250px;
+    height: 250px;
+    background-image: url(/images/image-waffle-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 10px;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.add-to-cart {
+    padding: 10px;
+    border-radius: 25px;
+    width: 100%;
+    max-width: 150px;
+    background-color: white;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    border: 1px solid black;
+    font-weight: 500;
+    position: relative;
+    top: 20px;
+}
